@@ -46,8 +46,8 @@ def list_files(dirs=[]):
     
         'append directory path to every file in list'
         for f in files:
-            os.path.join(d, f) 
-            all_files.append(f)
+            full_path = os.path.join(d, f) 
+            all_files.append(full_path)
 
     'return this list of files'
     return all_files
