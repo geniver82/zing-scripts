@@ -4,4 +4,4 @@ MODULES_INSTALLED = [
     'url2browser.urltobrowser',
 ]
 
-SLEEP_DURATION_IN_MINS = 15
+SLEEP_DURATION_IN_MINS = 3

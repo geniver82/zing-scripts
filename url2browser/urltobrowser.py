@@ -24,7 +24,7 @@ def run():
 
     'Open all urls in browser as new tab'
     __open_in_browser__(urls)
-        
+
 def __extract_url__(filenames=[]):
     """Extract all urls from files."""
     urls = []
@@ -42,3 +42,4 @@ def __open_in_browser__(urls=[]):
     for url in urls:
         logutil.info('Opening %s' %(url))
         webbrowser.open(url, new=1)
+        
